@@ -1,0 +1,17 @@
+# Terraform State files
+*.tfstate
+*.tfstate.backup
+
+# Terraform Directory
+.terraform/
+
+# SSH Keys
+terra-deployer-key
+terra-deployer-key.pub
+
+# Lock File
+*.lock.hcl
+
+# Ignore log files or temporary files
+*.log
+*.tmp
